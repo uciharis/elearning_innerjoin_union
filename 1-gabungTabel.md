@@ -9,3 +9,9 @@ Gambar 1. Tabel Warna
 
 Gambar 2. Tabel Kategori
 ![Gambar 2](/gambar1a.png)
+
+jika diperhatikan, tabel warna dan tabel kategori memiliki kolom yang berisi data yang memiliki nilai yang sama.
+
+kolom nama_barang dan nama_item bisa dijadikan penghubung tabel tersebut.
+
+Selanjutnya kolom tersebut kita sebut sebagai kolom kunci
