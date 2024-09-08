@@ -42,3 +42,30 @@ dan Tabel produk
 Gambar Tabel Produk
 ![tabel produk](/tabel_produk.png)
 
+### Memilih beberapa kolom untuk ditampilkan
+
+Sintaknya adalah sebagai berikut :
+
+Gambar sintaks INER JOIN beberapa kolom
+![Gambar sintak1](/sintak-innerjoin-kolomx.png)
+
+catatan :
+
+* pada opsi menampilkan beberapa kolom, harus menggunakan prefix tabel di dalam kolom yang ingin ditampilkan.
+
+* kolom yang ditampilkan, bisa berselang seling antar tabel (pada SELECT) asalkan menyebutkan prefix tabelnya.
+
+contoh menampilkan kolom berselang seling antar tabelnya (asal menggunakan prefix) :
+
+`
+SELECT penjualan.kode_transaksi, penjualan.kode_pelanggan, penjualan.kode_produk, produk.nama_produk, produk.harga, penjualan.qty, produk.harga,penjualan.qty*produk.harga AS total INNER JOIN produk ON penjualan.kode_produk = produk.kode_produk;
+`
+nb :
+
+latihan membuat database di AWS free tier
+
+password master : SQL123testing?
+
+username master : admin
+
+instance identifier : database-1
