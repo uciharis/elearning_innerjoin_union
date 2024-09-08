@@ -21,7 +21,7 @@ Selanjutnya kolom tersebut kita sebut sebagai kolom kunci.
 untuk menggabungkan kedua tabel tersebut, kita gunakan query berikut :
 
 `
-SELECT * FROM WARNA, KATEGORI WHERE nama_barang = nama_item;
+SELECT * FROM kategori, warna WHERE nama_barang = nama_item;
 `
 
 outputnya akan seperti berikut :
