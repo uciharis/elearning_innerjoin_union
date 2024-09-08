@@ -62,10 +62,7 @@ SELECT penjualan.kode_transaksi, penjualan.kode_pelanggan, penjualan.kode_produk
 `
 nb :
 
-latihan membuat database azure.com
+latihan membuat database beekeeperstudio
 
-server name : warkop.database.windows.net
-server admin login : azure123
-password : admin123?
-database name : test1
+tabel penjualan dan tabel produk
 
