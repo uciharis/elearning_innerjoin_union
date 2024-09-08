@@ -29,6 +29,9 @@ outputnya akan seperti berikut :
 Gambar 3. hasil penggabungan dua tabel
 ![Gambar 2](/gambar1c.png)
 
+urutan nama kolom dipengaruhi di urutan FROM tabelnya.
+Karena tabel kategori disebutkan terlebih dahulu, maka hasil penggabungannya adalah kolom dari tabel kategori dulu yang ada di sebelah kiri.
+
 hasil penggabungan ini menjadi tabel baru dan bersifat sementara. Tabel penggabungan tidak tersimpan secara default di database.
 
 cara mencocokkan dan menggabung disebut sebagai **INNER JOIN**.
