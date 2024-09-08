@@ -36,3 +36,45 @@ hasil penggabungan ini menjadi tabel baru dan bersifat sementara. Tabel penggabu
 
 cara mencocokkan dan menggabung disebut sebagai **INNER JOIN**.
 
+### Menggunakan prefiks nama Tabel
+
+Jika kita menggunakan wildcard pada SELECT tanpa menentukan spesifik kolom,urutannya akan dimulai dari tabel mana yang disebutkan terlebih dulu di FROM.
+
+tetapi jika kita menyebutkan spesifik prefix nama tabel + wildcard, urutannya akan mengikuti penyebutan tersebut(tidak mengikuti FROM).
+
+contoh :
+
+`
+SELECT tb_kategori.* , tb_warna.* FROM warna, kategori WHERE nama_barang = nama_item ;
+`
+
+urutan tabel join nya akan menjadi -->
+
+gambar 4.
+![gambar 4](/gambar2.png)
+
+prefix tabel (kolom) di SELECT meng-override urutan di FROM tabel.
+
+### Penggabungan tanpa kondisi
+
+Perhatikan query berikut :
+
+`
+SELECT * FROM kategori, warna;
+`
+
+Queri diatas adalah contoh **cross join**,
+atau penggabungan tanpa kondisi tertentu.
+hasil penggabungan tabel tersebut akan memiliki output baris sebanyak baris tabel 1 x baris tabel 2.
+
+Jika ada tabel 1 memiliki 3 baris & tabel 2 4 baris. Maka hasil cross joinnya akan menghasilkan 12 baris.
+
+hal ini dikarenakan masing-masing baris Tabel 1 akan dihubungkan dengan baris Tabel 2.
+
+Catatan:
+
+pembahasan diatas merupakan cara inner join menggunakan key column. pada materi selanjutnya kita akan melakukan inner join dengan keyword:
+
+`
+INNER JOIN ... ON ...
+`
