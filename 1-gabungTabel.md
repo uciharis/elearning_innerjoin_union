@@ -14,4 +14,22 @@ jika diperhatikan, tabel warna dan tabel kategori memiliki kolom yang berisi dat
 
 kolom nama_barang dan nama_item bisa dijadikan penghubung tabel tersebut.
 
-Selanjutnya kolom tersebut kita sebut sebagai kolom kunci
+Selanjutnya kolom tersebut kita sebut sebagai kolom kunci.
+
+### Menggabungkan ( join ) Tabel dengan kolom kunci
+
+untuk menggabungkan kedua tabel tersebut, kita gunakan query berikut :
+
+`
+SELECT * FROM WARNA, KATEGORI WHERE nama_barang = nama_item;
+`
+
+outputnya akan seperti berikut :
+
+Gambar 3. hasil penggabungan dua tabel
+![Gambar 2](/gambar1c.png)
+
+hasil penggabungan ini menjadi tabel baru dan bersifat sementara. Tabel penggabungan tidak tersimpan secara default di database.
+
+cara mencocokkan dan menggabung disebut sebagai **INNER JOIN**.
+
