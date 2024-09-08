@@ -62,10 +62,10 @@ SELECT penjualan.kode_transaksi, penjualan.kode_pelanggan, penjualan.kode_produk
 `
 nb :
 
-latihan membuat database di AWS free tier
+latihan membuat database azure.com
 
-password master : SQL123testing?
+server name : warkop.database.windows.net
+server admin login : azure123
+password : admin123?
+database name : test1
 
-username master : admin
-
-instance identifier : database-1
