@@ -90,3 +90,19 @@ Gambar Output hasil Conforming
 ![output Conforming](/output-UNION-confirming.png)
 
 nb : jika ada perbedaan nama kolom yang di UNION, maka akan digunakan nama kolom statement pertama
+
+## Perbedaan UNION dan JOIN
+
+JOIN digunakan untuk menggabungkan data secara horizontal (searah kolom)
+
+Ilustrasinya sebagai berikut :
+
+Ilustrasi JOIN
+![join](/ilustrasi-join.png)
+
+sedangkan UNION digunakan untuk menggabung data secara vertikal (searah baris)
+
+Ilustrasi seperti dibawah ini :
+
+ilustrasi UNION
+![union](/ilustrasi-union.png)
