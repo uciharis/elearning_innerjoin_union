@@ -20,3 +20,13 @@ Format querinya adalah :
 > SELECT nama_kolom1, nama_kolom2, .. FROM tabel ;
 
 ## Menggabungkan tabel
+
+Berikut tabel A dan tabel B yang akan digabung menggunakan UNION
+
+Gambar Tabel A
+![tabel A](/tabel-UNION-A.png)
+
+Gambar Tabel B
+![tabel B](/tabel-UNION-b.png)
+
+
