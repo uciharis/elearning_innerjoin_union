@@ -89,4 +89,4 @@ hasilnya seperti berikut :
 Gambar Output hasil Conforming
 ![output Conforming](/output-UNION-confirming.png)
 
-jika ada perbedaan nama kolom yang di UNION, maka akan digunakan nama kolom statement pertama
+nb : jika ada perbedaan nama kolom yang di UNION, maka akan digunakan nama kolom statement pertama
