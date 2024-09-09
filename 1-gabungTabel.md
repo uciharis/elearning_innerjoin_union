@@ -16,7 +16,7 @@ kolom nama_barang dan nama_item bisa dijadikan penghubung tabel tersebut.
 
 Selanjutnya kolom tersebut kita sebut sebagai kolom kunci.
 
-### Menggabungkan ( join ) Tabel dengan kolom kunci
+## Menggabungkan ( join ) Tabel dengan kolom kunci
 
 untuk menggabungkan kedua tabel tersebut, kita gunakan query berikut :
 
@@ -36,7 +36,7 @@ hasil penggabungan ini menjadi tabel baru dan bersifat sementara. Tabel penggabu
 
 cara mencocokkan dan menggabung disebut sebagai **INNER JOIN**.
 
-### Menggunakan prefiks nama Tabel
+## Menggunakan prefiks nama Tabel
 
 Jika kita menggunakan wildcard pada SELECT tanpa menentukan spesifik kolom,urutannya akan dimulai dari tabel mana yang disebutkan terlebih dulu di FROM.
 
@@ -55,7 +55,7 @@ gambar 4.
 
 prefix tabel (kolom) di SELECT meng-override urutan di FROM tabel.
 
-### Penggabungan tanpa kondisi
+## Penggabungan tanpa kondisi
 
 Perhatikan query berikut :
 

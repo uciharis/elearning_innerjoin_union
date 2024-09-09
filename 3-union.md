@@ -17,4 +17,6 @@ Format querinya adalah :
 
 > SELECT nama_kolom1, nama_kolom2, .. FROM tabel1
 > UNION
-> SELECT nama_kolom1, nama_kolom2, .. FROM tabel
+> SELECT nama_kolom1, nama_kolom2, .. FROM tabel ;
+
+### Menggabungkan tabel
