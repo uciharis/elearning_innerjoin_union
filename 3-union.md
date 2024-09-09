@@ -19,4 +19,4 @@ Format querinya adalah :
 > UNION
 > SELECT nama_kolom1, nama_kolom2, .. FROM tabel ;
 
-### Menggabungkan tabel
+## Menggabungkan tabel
