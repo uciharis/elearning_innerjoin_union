@@ -66,5 +66,7 @@ Lalu bagaimana jika kondisi tersebut tidak terpenuhi, apakah kita tetap bisa mel
 
 Bisa.
 
-Dengan cara kita perlu menyelaraskan terlebih dahulu masing-masing tabel agar sesuai. Contohnya sebagai berikut.
+Dengan cara kita perlu menyelaraskan terlebih dahulu masing-masing tabel agar sesuai. Contohnya tabel yang perlu penyesuaian adalah sebagai berikut.
 
+Gambar Tabel  Customer dan Supplier
+![perlu konforming](/perlu-conforming.png)
