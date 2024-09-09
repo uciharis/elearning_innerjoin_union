@@ -48,6 +48,7 @@ SELECT * FROM tabel_B ;
 `
 
 ## Menggunakan UNION dengan klause WHERE
+
 Misalkan kita ingin menggabungkan tabel ber kode produksi tertentu saja, maka kita menambahkan WHERE di kedua statement setelah FROM masing masing tabel.
 
 contoh queri :
@@ -59,7 +60,7 @@ UNION
 SELECT * FROM tabel_B
 WHERE kode_produksi = 'prod-04' ;
 `
-## Menyelaraskan Kolom
+
 Ketika ketika mendapatkan kondisi ideal seperti jumlah kolom A dan B sama dan posisinya sesuai, serta nama kolomnya sama maka kita dapat dengan mudah melakukan UNION.
 
 Lalu bagaimana jika kondisi tersebut tidak terpenuhi, apakah kita tetap bisa melakukan UNION ?
@@ -70,3 +71,22 @@ Dengan cara kita perlu menyelaraskan terlebih dahulu masing-masing tabel agar se
 
 Gambar Tabel  Customer dan Supplier
 ![perlu konforming](/perlu-conforming.png)
+
+berdasar tabel diatas, contactName pada tabel Customers tidak bersesuaian dengan ContactName tabel Supplier.
+
+Tidak semua kolom perlu digabungkan. Maka dari itu kita gabungkan kolom yang diperlukan saja.
+
+`
+SELECT CustomerName, ContactName, City, PostalCode
+FROM Customers
+UNION
+SELECT SupplierName, ContactName, City, PostalCode
+FROM Suppliers ;
+`
+
+hasilnya seperti berikut :
+
+Gambar Output hasil Conforming
+![output Conforming](/output-UNION-confirming.png)
+
+jika ada perbedaan nama kolom yang di UNION, maka akan digunakan nama kolom statement pertama
