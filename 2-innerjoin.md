@@ -42,7 +42,7 @@ dan Tabel produk
 Gambar Tabel Produk
 ![tabel produk](/tabel_produk.png)
 
-### Memilih beberapa kolom untuk ditampilkan
+## Memilih beberapa kolom untuk ditampilkan
 
 Sintaknya adalah sebagai berikut :
 
