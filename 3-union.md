@@ -38,3 +38,33 @@ Terlihat bahwa baik tabel A dan B memiliki :
 * jumlah kolom yang sama
 * tipe data yang sama
 * urutan kolom yang sama
+
+querinya adalah sebagai berikut :
+
+`
+SELECT * FROM tabel_A
+UNION
+SELECT * FROM tabel_B ;
+`
+
+## Menggunakan UNION dengan klause WHERE
+Misalkan kita ingin menggabungkan tabel ber kode produksi tertentu saja, maka kita menambahkan WHERE di kedua statement setelah FROM masing masing tabel.
+
+contoh queri :
+
+`
+SELECT * FROM tabel_A
+WHERE kode_produksi = 'prod-04'
+UNION
+SELECT * FROM tabel_B
+WHERE kode_produksi = 'prod-04' ;
+`
+## Menyelaraskan Kolom
+Ketika ketika mendapatkan kondisi ideal seperti jumlah kolom A dan B sama dan posisinya sesuai, serta nama kolomnya sama maka kita dapat dengan mudah melakukan UNION.
+
+Lalu bagaimana jika kondisi tersebut tidak terpenuhi, apakah kita tetap bisa melakukan UNION ?
+
+Bisa.
+
+Dengan cara kita perlu menyelaraskan terlebih dahulu masing-masing tabel agar sesuai. Contohnya sebagai berikut.
+
