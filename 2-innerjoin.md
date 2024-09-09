@@ -64,5 +64,6 @@ nb :
 
 latihan membuat database beekeeperstudio
 
-tabel penjualan dan tabel produk
+tabel penjualan dan tabel produk --> innerjoins.sqbpro
+file tersebut dibuka menggunakan DB Browser for SQLite
 
