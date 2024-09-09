@@ -29,4 +29,12 @@ Gambar Tabel A
 Gambar Tabel B
 ![tabel B](/tabel-UNION-b.png)
 
+Kedua tabel diatas berada di dalam file 3-union.sql & 3-union.sqbpro
 
+sebelum menggabungkan, mari diperiksa tabel A dan B apakah memenuhi syarat untuk dilakukan penggabungan UNION.
+
+Terlihat bahwa baik tabel A dan B memiliki :
+
+* jumlah kolom yang sama
+* tipe data yang sama
+* urutan kolom yang sama
